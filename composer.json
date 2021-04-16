@@ -1,0 +1,22 @@
+{
+    "name": "alvin/php-unit",
+    "description": "learning php unit testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alvinlal",
+            "email": "alvinzzz2001@gmail.com"
+        }
+    ],
+    "scripts": {
+       "test":"./vendor/bin/phpunit"
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+    "psr-4": {
+      "app\\":"."
+    } 
+    }
+}
