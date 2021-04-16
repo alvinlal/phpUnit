@@ -2,8 +2,6 @@
 
 namespace app\models;
 
-use PhpParser\Node\Expr\Cast\Object_;
-
 class User {
 
 	private String $firstName;
@@ -13,10 +11,6 @@ class User {
 
 		$this->firstName = trim($firstName);
 		$this->lastName = trim($lastName);
-	}
-
-	public function setFirstName(String $firstName) {
-		$this->firstName = $firstName;
 	}
 
 	public function getFirstName() {
